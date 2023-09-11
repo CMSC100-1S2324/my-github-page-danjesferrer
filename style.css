@@ -1,0 +1,13 @@
+#navbar {
+    width: 100vw;
+    height: auto;
+    border-radius: 15px;
+    background-color: green;
+}
+
+#navbar img {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: auto;
+}
