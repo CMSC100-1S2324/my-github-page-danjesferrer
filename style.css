@@ -16,13 +16,13 @@ h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.container {
+.featured {
     width: 100vw;
     height: auto;
     padding: 10px;
 }
 
-.container img {
+.featured img {
     border-radius: 40px;
     display: block;
     width: 60%;
