@@ -1,5 +1,7 @@
+/* Importing poppins font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+/* HTML tags design */
 * {
     margin: 0;
     padding: 0;
@@ -34,6 +36,7 @@ hr {
     margin: auto;
 }
 
+/* Navigation Bar */
 .navbar {
     margin: 10px;
 }
@@ -45,8 +48,7 @@ hr {
     margin: auto;
 }
 
-/* SECTIONS */
-
+/* Profile */
 section {
     padding-top: 4vh;
     height: 96vh;
@@ -58,8 +60,6 @@ section {
 .section-container {
     display: flex;
 }
-
-/* PROFILE SECTION */
 
 #profile {
     display: flex;
@@ -99,6 +99,7 @@ section {
     text-align: center;
 }
 
+/* Featured Photo */
 .featured {
     padding: 10px;
 }
@@ -112,6 +113,7 @@ section {
     margin-bottom: 80px;
 }
 
+/* Previous Project */
 .projects {
     display: flex;
     margin-bottom: 50px;
@@ -128,6 +130,7 @@ section {
     margin-top: 10px;
 }
 
+/* Skills and Autobiography */
 .container {
     display: flex;
     margin-bottom: 40px;
@@ -142,6 +145,7 @@ section {
     text-align: justify;
 }
 
+/* Contact Information */
 .footer-container {
     display: flex;
     margin: 20px;
