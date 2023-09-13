@@ -109,14 +109,20 @@ section {
 }
 
 .projects {
+    width: 100vw;
+    height: auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
-.projects img {
+.item {
+    width: 50%;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.projects .item img {
     border-radius: 40px;
-    width: 20%;
+    width: 60%;
     height: auto;
     margin-top: 10px;
 }
