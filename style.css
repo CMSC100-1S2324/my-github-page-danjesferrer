@@ -114,7 +114,7 @@ section {
 
 .projects {
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .item {
@@ -124,13 +124,13 @@ section {
 
 .projects .item img {
     border-radius: 40px;
-    width: 60%;
-    height: auto;
+    width: 90%;
     margin-top: 10px;
 }
 
 .container {
     display: flex;
+    margin-bottom: 40px;
 }
 
 .subcontainer {
