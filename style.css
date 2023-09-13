@@ -25,7 +25,7 @@ hr {
 .navbar {
     width: 100vw;
     height: auto;
-
+    margin: 10px;
 }
 
 .navbar img {
@@ -37,7 +37,60 @@ hr {
 
 h2 {
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+/* SECTIONS */
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+/* PROFILE SECTION */
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.profile-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.text-container {
+    align-self: center;
+    text-align: center;
+}
+
+.text-container p {
+    font-weight: 600;
+}
+
+.text-container-p1 {
+    text-align: center;
+}
+
+.text-container-p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
 }
 
 .featured {
@@ -52,6 +105,7 @@ h2 {
     width: 60%;
     height: auto;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 .projects {
@@ -64,4 +118,5 @@ h2 {
     border-radius: 40px;
     width: 20%;
     height: auto;
+    margin-top: 10px;
 }
