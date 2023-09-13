@@ -23,8 +23,6 @@ hr {
 }
 
 .navbar {
-    width: 100vw;
-    height: auto;
     margin: 10px;
 }
 
@@ -61,6 +59,7 @@ section {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    margin-bottom: 20px;
 }
 
 .profile-container {
@@ -94,8 +93,6 @@ section {
 }
 
 .featured {
-    width: 100vw;
-    height: auto;
     padding: 10px;
 }
 
@@ -105,18 +102,16 @@ section {
     width: 60%;
     height: auto;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .projects {
-    width: 100vw;
-    height: auto;
     display: flex;
+    margin-bottom: 80px;
 }
 
 .item {
     width: 50%;
-    /* align-items: center; */
     text-align: center;
 }
 
@@ -125,4 +120,17 @@ section {
     width: 60%;
     height: auto;
     margin-top: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.subcontainer {
+    margin: 20px;
+}
+
+.subcontainer p {
+    margin-top: 10px;
+    text-align: justify;
 }
