@@ -37,11 +37,11 @@ hr {
 }
 
 /* Navigation Bar */
-.navbar {
+.navbar-logo {
     margin: 10px;
 }
 
-.navbar img {
+.navbar-logo img {
     display: block;
     width: 150px;
     height: auto;
@@ -166,7 +166,7 @@ hr {
 }
 
 .footer-content p,
-a {
+.footer-content a {
     margin-left: 20px;
     color: white;
 }
